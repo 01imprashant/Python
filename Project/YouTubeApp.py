@@ -33,7 +33,7 @@ def update_video(videos):
         videos[index-1]={'name':name,'time':time}
         helper(videos)
     else:
-        print("Invalid inddex selected")    
+        print("Invalid index selected")    
 
 def delete_video(videos):
     list_all_videos(videos)
@@ -43,7 +43,7 @@ def delete_video(videos):
         del videos[index-1]
         helper(videos)
     else:
-        print("Invalid video index to selected")    
+        print("Invalid video index selected")    
 
 def main():
     videos=load_data()
